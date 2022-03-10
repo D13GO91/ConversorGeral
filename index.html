@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="page-title">
+      Conversor Geral
+    </h1>
+    <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo"
+      alt=""><br><br>
+    </div>
+    
+    <div class="card">
+    
+      <div class='justify-center'>
+        <h2>Aperte o botão do conversor que você quer:</h>
+      </div>
+    
+      <div class="justify-center">
+        <button onclick="ConverterMoedas()">Moedas</button>
+        <button onclick="ConverterTemperatura()">Temperatura</button>
+        <button onclick="ConverterDistancia()">Distâncias</button>
+      </div>
+    
+      <div class='justify-center'>
+        <h2>Selecione e insira o valor para converter:</h>
+      </div>
+    
+      <div class='justify-center'>
+        <div class="label-float">
+          <input type="number" id="valor01" size="4" /><br>
+        </div>
+        <select name="lista01" id="lista01" class='select'>
+          <option value="real">R$</option>
+          <option value="dolar">U$</option>
+          <option value="euro">€</option>
+          <option value="bitCoin">BTC</option>
+        </select>
+      </div>
+    
+      <div class='justify-center'>
+        <div class="label-float">
+          <input type="number" id="valor02" size="4" disabled="" /><br>
+        </div>
+        <select name="lista02" id="lista02" class='select'>
+          <option value="dolar">U$</option>
+          <option value="real">R$</option>
+          <option value="euro">€</option>
+          <option value="bitCoin">BTC</option>
+        </select>
+      </div>
+    
+      <div class='justify-center'>
+        <button onclick="Converter()">Converter</button>
+      </div>
+    
+      <div class='justify-center'>
+        <hr>
+      </div>
+    
+    </div>
+    
+    <a href="https://alura.com.br/" target="_blank">
+      <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+
+
+    <script src="./script.js"></script>
+</body>
+</html>

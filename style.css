@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+body {
+  font-family: "Ubuntu", cursive;
+  background-color: #314330;
+  background-image: url("https://i.imgur.com/P1izQkT.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+.label-float label {
+  color: #73b36e;
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-top: 13px;
+  transition: all 0.3s ease-out;
+}
+
+.label-float input {
+  width: 40%;
+  padding: 5px 5px;
+  display: inline-block;
+  border: 0;
+  border-bottom: 5px solid #4f724d;
+  background-color: transparent;
+  outline: none;
+  min-width: 180px;
+  font-size: 16px;
+  transition: all 0.3s ease-out;
+  border-radius: 0;
+}
+
+.card {
+  background-color: #ffffff80;
+  padding: 10px;
+  border-radius: 3%;
+  box-shadow: 3px 3px 1px 0px #00000070;
+  margin-left: 100px;
+  margin-right: 100px;
+  font-size: 20px;
+}
+
+.label-float input {
+  width: 30%;
+  padding: 5px 5px;
+  border: 0;
+  border-bottom: 2px solid #314330;
+  font-size: 16px;
+  transition: all 0.3s ease-out;
+  border-radius: 0;
+}
+
+.label-float {
+  position: relative;
+  padding-top: 15px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.label-float input:focus {
+  border-bottom: 2px solid #809b9a;
+}
+
+.label-float input:focus + label {
+  font-size: 13px;
+  margin-top: 0;
+  color: #314330;
+}
+
+.select {
+  background-color: transparent;
+  border-color: #314330;
+  color: #314330;
+  padding: 7px;
+  font-weight: bold;
+  margin-top: 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  outline: none;
+}
+
+button {
+  background-color: transparent;
+  border-color: #314330;
+  color: #314330;
+  padding: 10px;
+  font-weight: bold;
+  margin-left: 5px;
+  margin-top: 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #314330;
+  color: #fff;
+  transition: all 0.5s ease-out;
+}
+
+.justify-center {
+  display: flex;
+  justify-content: center;
+}
+
+h2 {
+  color: #314330;
+  font-size: 25px;
+  text-align: center;
+}
+
+hr {
+  margin-top: 10%;
+  margin-bottom: 10%;
+  width: 60%;
+}
+
+.page-title {
+  color: #000000;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #000000;
+  margin-top: 5px;
+}
+
+.page-logo {
+  width: 200px;
+}
+
+.alura-logo {
+  width: 40px;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
